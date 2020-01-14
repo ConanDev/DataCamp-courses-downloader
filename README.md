@@ -7,6 +7,7 @@ To use this app, edit the config file and add your email and password for DataCa
 You can either enter the course name you wish to download in the config file as well, or add it as an argument to main:
 python app.py "course name" (which is obviously more practical)
 In the app.py file, add the path to the webdriver in the body of the main function.
+Use backwards double slashes to describe paths.
 
 #General notes
-Please feel free to edit this program as it can be easily improved by making sleeping time more efficient, and perhaps adding a GUI.
+Please feel free to edit this program as it can be easily improved by making sleeping time more efficient, perhaps adding a GUI, and handling other less likely exceptions.
